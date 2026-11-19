@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{62877471-77c4-4b23-adb4-0079ca925a56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CWindow">
+      <UniqueIdentifier>{6fbef546-2d78-4acb-b25e-7c4d0f83afd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Win32Utils">
+      <UniqueIdentifier>{8b81e1a1-5600-423a-b8f7-8f694905b88a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="source\symbol.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\proc.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\pcx.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\pce.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\output.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\nes.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\mml.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\map.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\main.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\macro.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\input.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ines_header.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\func.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\expr.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\crc.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\code.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\assemble.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="CWindow\CDialogBase.cpp">
+      <Filter>CWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="CDialogFrame.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32Utils\CPathUtils.cpp">
+      <Filter>Win32Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32Utils\CRegUtils.cpp">
+      <Filter>Win32Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32Utils\CTimeUtils.cpp">
+      <Filter>Win32Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32Utils\CCommandLine.cpp">
+      <Filter>Win32Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32Utils\CIniHelper.cpp">
+      <Filter>Win32Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32Utils\CStrUtils.cpp">
+      <Filter>Win32Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32Utils\CProcessUtils.cpp">
+      <Filter>Win32Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32Utils\CComFileDialog.cpp">
+      <Filter>Win32Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\vars.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\protos.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\pce.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\nes.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\inst.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ines_header.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\externs.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\expr.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\defs.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="CWindow\CDialogBase.h">
+      <Filter>CWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="CDialogFrame.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32Utils\CStrUtils.h">
+      <Filter>Win32Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32Utils\CPathUtils.h">
+      <Filter>Win32Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32Utils\CTimeUtils.h">
+      <Filter>Win32Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32Utils\CCommandLine.h">
+      <Filter>Win32Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32Utils\CIniHelper.h">
+      <Filter>Win32Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32Utils\CProcessUtils.h">
+      <Filter>Win32Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="source\insf_header.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32Utils\CComFileDialog.h">
+      <Filter>Win32Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="nesasm.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
